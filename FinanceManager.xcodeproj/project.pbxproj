@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BA890D0A2C4BAA2C00C6D2E6 /* FinanceManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D092C4BAA2C00C6D2E6 /* FinanceManagerApp.swift */; };
-		BA890D0C2C4BAA2C00C6D2E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D0B2C4BAA2C00C6D2E6 /* ContentView.swift */; };
 		BA890D0E2C4BAA2D00C6D2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA890D0D2C4BAA2D00C6D2E6 /* Assets.xcassets */; };
 		BA890D112C4BAA2D00C6D2E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA890D102C4BAA2D00C6D2E6 /* Preview Assets.xcassets */; };
 		BA890D1B2C4BAA2D00C6D2E6 /* FinanceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D1A2C4BAA2D00C6D2E6 /* FinanceManagerTests.swift */; };
 		BA890D252C4BAA2D00C6D2E6 /* FinanceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D242C4BAA2D00C6D2E6 /* FinanceManagerUITests.swift */; };
 		BA890D272C4BAA2D00C6D2E6 /* FinanceManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D262C4BAA2D00C6D2E6 /* FinanceManagerUITestsLaunchTests.swift */; };
+		BA890D342C4BB1B000C6D2E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA890D332C4BB1B000C6D2E6 /* GoogleService-Info.plist */; };
+		BA890D372C4BB33600C6D2E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA890D362C4BB33600C6D2E6 /* FirebaseAnalytics */; };
+		BA890D392C4BB33600C6D2E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BA890D382C4BB33600C6D2E6 /* FirebaseAuth */; };
+		BA890D3B2C4BB33600C6D2E6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA890D3A2C4BB33600C6D2E6 /* FirebaseCrashlytics */; };
+		BA890D3D2C4BB33600C6D2E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BA890D3C2C4BB33600C6D2E6 /* FirebaseFirestore */; };
+		BA890D3F2C4BB37900C6D2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D3E2C4BB37900C6D2E6 /* AppDelegate.swift */; };
+		BA890D432C4BB5A400C6D2E6 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D422C4BB5A400C6D2E6 /* AuthorizationView.swift */; };
+		BA890D462C4BB68E00C6D2E6 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA890D452C4BB68E00C6D2E6 /* RegistrationView.swift */; };
+		BAB8243F2C4BDE40000BF31A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8243E2C4BDE40000BF31A /* LoginModel.swift */; };
+		BAB824422C4BDE51000BF31A /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB824412C4BDE51000BF31A /* AccountService.swift */; };
+		BAB824472C4BEF78000BF31A /* AuthStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB824462C4BEF78000BF31A /* AuthStatus.swift */; };
+		BAB8244A2C4BF27E000BF31A /* AccountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB824492C4BF27E000BF31A /* AccountState.swift */; };
+		BAB8244C2C4BF86A000BF31A /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8244B2C4BF86A000BF31A /* RegisterModel.swift */; };
+		BAB8244E2C4BFB6A000BF31A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8244D2C4BFB6A000BF31A /* MainView.swift */; };
+		BAB824502C4C4596000BF31A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8244F2C4C4596000BF31A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		BA890D062C4BAA2C00C6D2E6 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA890D092C4BAA2C00C6D2E6 /* FinanceManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceManagerApp.swift; sourceTree = "<group>"; };
-		BA890D0B2C4BAA2C00C6D2E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA890D0D2C4BAA2D00C6D2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA890D102C4BAA2D00C6D2E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA890D162C4BAA2D00C6D2E6 /* FinanceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,17 @@
 		BA890D202C4BAA2D00C6D2E6 /* FinanceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA890D242C4BAA2D00C6D2E6 /* FinanceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceManagerUITests.swift; sourceTree = "<group>"; };
 		BA890D262C4BAA2D00C6D2E6 /* FinanceManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA890D332C4BB1B000C6D2E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA890D3E2C4BB37900C6D2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA890D422C4BB5A400C6D2E6 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		BA890D452C4BB68E00C6D2E6 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		BAB8243E2C4BDE40000BF31A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		BAB824412C4BDE51000BF31A /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		BAB824462C4BEF78000BF31A /* AuthStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStatus.swift; sourceTree = "<group>"; };
+		BAB824492C4BF27E000BF31A /* AccountState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountState.swift; sourceTree = "<group>"; };
+		BAB8244B2C4BF86A000BF31A /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		BAB8244D2C4BFB6A000BF31A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BAB8244F2C4C4596000BF31A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA890D3B2C4BB33600C6D2E6 /* FirebaseCrashlytics in Frameworks */,
+				BA890D3D2C4BB33600C6D2E6 /* FirebaseFirestore in Frameworks */,
+				BA890D372C4BB33600C6D2E6 /* FirebaseAnalytics in Frameworks */,
+				BA890D392C4BB33600C6D2E6 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +122,14 @@
 		BA890D082C4BAA2C00C6D2E6 /* FinanceManager */ = {
 			isa = PBXGroup;
 			children = (
+				BAB8243B2C4BDE07000BF31A /* Shared */,
+				BA890D412C4BB59100C6D2E6 /* Main */,
+				BA890D402C4BB56B00C6D2E6 /* Authorization */,
+				BA890D332C4BB1B000C6D2E6 /* GoogleService-Info.plist */,
 				BA890D092C4BAA2C00C6D2E6 /* FinanceManagerApp.swift */,
-				BA890D0B2C4BAA2C00C6D2E6 /* ContentView.swift */,
 				BA890D0D2C4BAA2D00C6D2E6 /* Assets.xcassets */,
 				BA890D0F2C4BAA2D00C6D2E6 /* Preview Content */,
+				BA890D3E2C4BB37900C6D2E6 /* AppDelegate.swift */,
 			);
 			path = FinanceManager;
 			sourceTree = "<group>";
@@ -127,6 +159,76 @@
 			path = FinanceManagerUITests;
 			sourceTree = "<group>";
 		};
+		BA890D402C4BB56B00C6D2E6 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				BAB824522C4C45D7000BF31A /* Views */,
+				BA890D422C4BB5A400C6D2E6 /* AuthorizationView.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		BA890D412C4BB59100C6D2E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8244D2C4BFB6A000BF31A /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BAB8243B2C4BDE07000BF31A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8243C2C4BDE10000BF31A /* Account */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BAB8243C2C4BDE10000BF31A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BAB824482C4BF139000BF31A /* State */,
+				BAB824402C4BDE43000BF31A /* Services */,
+				BAB8243D2C4BDE33000BF31A /* Models */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BAB8243D2C4BDE33000BF31A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8243E2C4BDE40000BF31A /* LoginModel.swift */,
+				BAB824462C4BEF78000BF31A /* AuthStatus.swift */,
+				BAB8244B2C4BF86A000BF31A /* RegisterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAB824402C4BDE43000BF31A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BAB824412C4BDE51000BF31A /* AccountService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BAB824482C4BF139000BF31A /* State */ = {
+			isa = PBXGroup;
+			children = (
+				BAB824492C4BF27E000BF31A /* AccountState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		BAB824522C4C45D7000BF31A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8244F2C4C4596000BF31A /* LoginView.swift */,
+				BA890D452C4BB68E00C6D2E6 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +245,12 @@
 			dependencies = (
 			);
 			name = FinanceManager;
+			packageProductDependencies = (
+				BA890D362C4BB33600C6D2E6 /* FirebaseAnalytics */,
+				BA890D382C4BB33600C6D2E6 /* FirebaseAuth */,
+				BA890D3A2C4BB33600C6D2E6 /* FirebaseCrashlytics */,
+				BA890D3C2C4BB33600C6D2E6 /* FirebaseFirestore */,
+			);
 			productName = FinanceManager;
 			productReference = BA890D062C4BAA2C00C6D2E6 /* FinanceManager.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +323,9 @@
 				Base,
 			);
 			mainGroup = BA890CFD2C4BAA2C00C6D2E6;
+			packageReferences = (
+				BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BA890D072C4BAA2C00C6D2E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +344,7 @@
 			files = (
 				BA890D112C4BAA2D00C6D2E6 /* Preview Assets.xcassets in Resources */,
 				BA890D0E2C4BAA2D00C6D2E6 /* Assets.xcassets in Resources */,
+				BA890D342C4BB1B000C6D2E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA890D0C2C4BAA2C00C6D2E6 /* ContentView.swift in Sources */,
+				BAB8243F2C4BDE40000BF31A /* LoginModel.swift in Sources */,
+				BA890D3F2C4BB37900C6D2E6 /* AppDelegate.swift in Sources */,
+				BA890D432C4BB5A400C6D2E6 /* AuthorizationView.swift in Sources */,
+				BAB8244E2C4BFB6A000BF31A /* MainView.swift in Sources */,
+				BAB8244A2C4BF27E000BF31A /* AccountState.swift in Sources */,
+				BAB824472C4BEF78000BF31A /* AuthStatus.swift in Sources */,
+				BAB824422C4BDE51000BF31A /* AccountService.swift in Sources */,
 				BA890D0A2C4BAA2C00C6D2E6 /* FinanceManagerApp.swift in Sources */,
+				BAB824502C4C4596000BF31A /* LoginView.swift in Sources */,
+				BA890D462C4BB68E00C6D2E6 /* RegistrationView.swift in Sources */,
+				BAB8244C2C4BF86A000BF31A /* RegisterModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,12 +551,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = volrik.FinanceManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "volrik.finance-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,12 +581,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = volrik.FinanceManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "volrik.finance-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69Y6J68ALW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = volrik.FinanceManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +624,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69Y6J68ALW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = volrik.FinanceManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -588,6 +711,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA890D362C4BB33600C6D2E6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BA890D382C4BB33600C6D2E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BA890D3A2C4BB33600C6D2E6 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		BA890D3C2C4BB33600C6D2E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA890D352C4BB33600C6D2E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA890CFE2C4BAA2C00C6D2E6 /* Project object */;
 }

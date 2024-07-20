@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct FinanceManagerApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    @StateObject private var accountState: AccountState
+    
+    init() {
+        let wrapper = AccountState()
+        _accountState = StateObject(wrappedValue: wrapper)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if accountState.isLoggedIn {
+                MainView()
+                    .environmentObject(accountState)
+            } else {
+                RegistrationView()
+                    .environmentObject(accountState)
+            }
         }
     }
 }
